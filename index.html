@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yelp Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- main home page -->
+        <div class="homesection">
+            <!-- nav tags-->
+            <div class="nav">
+                
+                <img src="./Assets/yelp.png" alt="Yelp-icons" class="icon">
+
+                <div class="main-bar">
+
+                    <div class="search">
+                        <input type="text" name="cata" placeholder="tacos,cheap dinner,Max's" id="food" class="search-item">
+                        <input type="text" name="place" placeholder="San Francisco,CA" id="location" class="search-item">
+                        <button class="search-button">
+                            <span class="material-symbols-outlined">
+                                search
+                                </span>
+                        </button>
+                    </div>
+
+                    <div class="category">
+
+                       
+                            <div class="cate-tags"> 
+                                <div class="center">
+                                Restaurant <span class="material-symbols-outlined">
+                                arrow_drop_down
+                                </span></div>
+                                <div class="red-line"></div>
+                            </div>
+                            <div class="cate-tags"> 
+                                <div class="center">
+                                Home Service <span class="material-symbols-outlined">
+                                arrow_drop_down
+                                </span></div>
+                                <div class="red-line"></div>
+                            </div>
+                            <div class="cate-tags"> 
+                                <div class="center">
+                                Auto Service <span class="material-symbols-outlined">
+                                arrow_drop_down
+                                </span></div>
+                                <div class="red-line"></div>
+                            </div>
+                            <div class="cate-tags"> 
+                                <div class="center">
+                                More <span class="material-symbols-outlined">
+                                arrow_drop_down
+                                </span></div>
+                                <div class="red-line"></div>
+                            </div>
+
+                    </div>
+
+                </div>
+
+                <div class="additional">
+                    <div class="additional-tags">For Businsses</div>
+                    <div class="additional-tags">Write a Review</div>
+                </div>
+
+                <div class="buttons">
+                    <button class="login">Log In</button>
+                    <button class="signin">Sign Up</button>
+                </div>
+
+            </div>
+
+            <!-- image info -->
+            <div class="info">
+                <div class="info-main">
+                    <div class="animation">
+                        <div class="animation-div"></div>
+                        <div class="animation-div"></div>
+                        <div class="animation-div"></div>
+                    </div>
+                    <div class="heading">
+                        <h1 class="heading-text">Get a deep clean</h1>
+                        <button class="heading-button">
+                            <span class="material-symbols-outlined">
+                                search
+                                </span> Cleaners </button>
+                    </div>
+                </div>
+                <div class="text">
+                    <p class="text-1">Maid for homes and offices</p>
+                    <p class="text-2">Image form the owners</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Reviewes -->
+
+        <div class="re-container">
+            <!--Heading-->
+            <h2 class="re-heading">Recent Activity</h2>
+
+            <!--Main grid-->
+
+            <div class="grid-container">
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-1.jpg" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/food.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon" title="cool">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="" class="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined emj">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined emj">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-2.jpg" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/clothes.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-3.jfif" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/house.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-2.jpg" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/food.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-1.jpg" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/clothes.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-3.jfif" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/clothes.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-1.jpg" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/food.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-1.jpg" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/house.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-1.jpg" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/food.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-2.jpg" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/house.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-2.jpg" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/food.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+
+                </div>
+
+                <div class="grid-items">
+
+                    <!--profile part-->
+
+                    <div class="profile">
+                        <!--profile - photo-->
+                        <img src="./Assets/profile-3.jfif" class="profile-photo" alt="Profile Photo">
+
+                        <div class="user-info">
+                            <h3 class="username">Kelly C.</h3>
+                            <h3 class="fainted_text">Wrote a Review</h3>
+                        </div>
+                    </div>
+
+                    <!--image-->
+
+                    <img src="./Assets/clothes.jpg" alt="Bagels" class="review-item">
+
+                    <h3 class="Product_owner">David's Bagels</h3>
+
+                    <!--stars-->
+                    <div class="stars">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                        <img src="./Assets/stars-1-removebg-preview.png" alt="" class="starsicon">
+                    </div>
+
+                    <p class="rev-para">Really great bagels! They are ramping up their service and wait times so be a little patient</p>
+
+                    <a href="">Continue reading</a>
+
+                    <div class="line"></div>
+
+                    <!--emojeis-->
+                    <div class="emojeis">
+                        <span class="material-symbols-outlined">
+                            lightbulb_circle
+                            </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                            </span>
+                        <img src="./Assets/cool.png" alt="" id="cool">
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="re-heading-bottom"><span class="material-symbols-outlined drop-down-arrow">
+                arrow_drop_down
+                </span>show more activity</h2>
+        </div>
+
+        <div class="line-full"></div>
+
+        <!--catagereys-->
+        <div class="categories-container">
+            <h1 class="cate-heading">Categories</h1>
+
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/8bc05b287157/assets/img/svg_illustrations/40x40_food_v2.svg" alt="" class="cate-icon">
+                    <h3 class="card-heading">Restaurants</h3>
+                </div>
+                <div class="card">
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/488aeb87ef6e/assets/img/svg_illustrations/40x40_gift_shops_v2.svg" alt="" class="cate-icon">
+                    <h3 class="card-heading">Shopping</h3>
+                </div>
+                <div class="card">
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/1397897c21a5/assets/img/svg_illustrations/40x40_new_v2.svg" alt="" class="cate-icon">
+                    <h3 class="card-heading">Nightlife</h3>
+                </div>
+                <div class="card">
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/0372f8e93aa9/assets/img/svg_illustrations/40x40_set_objective_v2.svg" alt="" class="cate-icon">
+                    <h3 class="card-heading">Active-life</h3>
+                </div>
+                <div class="card">
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5bd5d2648742/assets/img/svg_illustrations/40x40_barbers_v2.svg" alt="" class="cate-icon">
+                    <h3 class="card-heading">Beauty & spas</h3>
+                </div>
+                <div class="card">
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5967f38fe621/assets/img/svg_illustrations/40x40_auto_v2.svg" alt="" class="cate-icon">
+                    <h3 class="card-heading">Automotive</h3>
+                </div>
+                <div class="card">
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/7fc312973cf8/assets/img/svg_illustrations/40x40_home_services_v2.svg" alt="" class="cate-icon">
+                    <h3 class="card-heading">HomeServise</h3>
+                </div>
+                <div class="card">
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/public/40x40_more_v2.yji-961fdce2fd036f85fb01.svg" alt="" class="cate-icon">
+                    <h3 class="card-heading">More</h3>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="footer-container">
+            <div class="footer-main">
+
+                <div class="footer-item about">
+                    <h3 class="footer-heading">About</h3>
+                    <ul class="list">
+                        <li>About Yelp</li>
+                        <li>Careers</li>
+                        <li> Press</li>
+                        <li>Investor Relations</li>
+                        <li>Trust & Safety</li>
+                        <li>Content Guidelines</li>
+                        <li>Accessibility Statement</li>
+                        <li>Terms of Service</li>
+                        <li>Privacy Policy</li>
+                        <li>Ad Choices</li>
+                        <li>Your Privacy Choices</li>
+                    </ul>
+                </div>
+
+                <div class="footer-item Discover">
+                    <h3 class="footer-heading">Discover</h3>
+
+                    <ul class="list">
+                        <li>Yelp Project Cost Guides</li>
+                        <li>Collections</li>
+                        <li>Talk</li>
+                        <li>Events</li>
+                        <li>Yelp Blog</li>
+                        <li>Support</li>
+                        <li>Yelp Mobile</li>
+                        <li>Developers</li>
+                        <li>RSS</li>
+                    </ul>
+
+                </div>
+
+                <div class="footer-item yfb">
+                    <h3 class="footer-heading">Yelp for Business</h3>
+
+                    <ul class="list">
+                        <li>Yelp for Business</li>
+                        <li>Business Owner Login</li>
+                        <li>Claim your Business Page</li>
+                        <li>Advertise on Yelp</li>
+                        <li>Yelp for Restaurant Owners</li>
+                        <li>Table Management</li>
+                        <li>Business Success Stories</li>
+                        <li>Business Support</li>
+                        <li>Yelp Blog for Business</li>
+                    </ul>
+                </div>
+
+                <div class="footer-item language">
+                    <h3 class="footer-heading">Languages</h3>
+
+                    <p class="english hover-effect">English <span class="material-symbols-outlined">
+                        arrow_drop_down
+                        </span></p>
+
+                    <h3 class="footer-heading">Countries</h3>
+
+                    <p class="contary hover-effect">United States <span class="material-symbols-outlined">
+                        arrow_drop_down
+                        </span></p>
+                </div>
+
+            </div>
+            <p class="copyrights">Copyright © 2004–2023 Yelp Inc. Yelp, <span><img src="./Assets/footer-icon.png" class="copy-icon"></span>
+    
+            <span><img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/cabcef1daea2/assets/img/brand/burst_red.svg" alt=""></span>and related marks are registered trademarks of Yelp.
+            </p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
